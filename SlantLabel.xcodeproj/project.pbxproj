@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7EFBB2D22379D6D0070C113 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EFBB2C22379D6D0070C113 /* AppDelegate.m */; };
+		C7EFBB3022379D6D0070C113 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EFBB2F22379D6D0070C113 /* ViewController.m */; };
+		C7EFBB3322379D6D0070C113 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7EFBB3122379D6D0070C113 /* Main.storyboard */; };
+		C7EFBB3522379D6E0070C113 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7EFBB3422379D6E0070C113 /* Assets.xcassets */; };
+		C7EFBB3822379D6E0070C113 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7EFBB3622379D6E0070C113 /* LaunchScreen.storyboard */; };
+		C7EFBB3B22379D6E0070C113 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EFBB3A22379D6E0070C113 /* main.m */; };
+		C7EFBB4522379D6E0070C113 /* SlantLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EFBB4422379D6E0070C113 /* SlantLabelTests.m */; };
+		C7EFBB5022379D6E0070C113 /* SlantLabelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EFBB4F22379D6E0070C113 /* SlantLabelUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7EFBB4122379D6E0070C113 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7EFBB2022379D6D0070C113 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7EFBB2722379D6D0070C113;
+			remoteInfo = SlantLabel;
+		};
+		C7EFBB4C22379D6E0070C113 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7EFBB2022379D6D0070C113 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7EFBB2722379D6D0070C113;
+			remoteInfo = SlantLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C7EFBB2822379D6D0070C113 /* SlantLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlantLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7EFBB2B22379D6D0070C113 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C7EFBB2C22379D6D0070C113 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C7EFBB2E22379D6D0070C113 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C7EFBB2F22379D6D0070C113 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C7EFBB3222379D6D0070C113 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C7EFBB3422379D6E0070C113 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C7EFBB3722379D6E0070C113 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C7EFBB3922379D6E0070C113 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7EFBB3A22379D6E0070C113 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C7EFBB4022379D6E0070C113 /* SlantLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlantLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7EFBB4422379D6E0070C113 /* SlantLabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlantLabelTests.m; sourceTree = "<group>"; };
+		C7EFBB4622379D6E0070C113 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7EFBB4B22379D6E0070C113 /* SlantLabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlantLabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7EFBB4F22379D6E0070C113 /* SlantLabelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlantLabelUITests.m; sourceTree = "<group>"; };
+		C7EFBB5122379D6E0070C113 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7EFBB2522379D6D0070C113 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7EFBB3D22379D6E0070C113 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7EFBB4822379D6E0070C113 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7EFBB1F22379D6D0070C113 = {
+			isa = PBXGroup;
+			children = (
+				C7EFBB2A22379D6D0070C113 /* SlantLabel */,
+				C7EFBB4322379D6E0070C113 /* SlantLabelTests */,
+				C7EFBB4E22379D6E0070C113 /* SlantLabelUITests */,
+				C7EFBB2922379D6D0070C113 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7EFBB2922379D6D0070C113 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7EFBB2822379D6D0070C113 /* SlantLabel.app */,
+				C7EFBB4022379D6E0070C113 /* SlantLabelTests.xctest */,
+				C7EFBB4B22379D6E0070C113 /* SlantLabelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7EFBB2A22379D6D0070C113 /* SlantLabel */ = {
+			isa = PBXGroup;
+			children = (
+				C7EFBB2B22379D6D0070C113 /* AppDelegate.h */,
+				C7EFBB2C22379D6D0070C113 /* AppDelegate.m */,
+				C7EFBB2E22379D6D0070C113 /* ViewController.h */,
+				C7EFBB2F22379D6D0070C113 /* ViewController.m */,
+				C7EFBB3122379D6D0070C113 /* Main.storyboard */,
+				C7EFBB3422379D6E0070C113 /* Assets.xcassets */,
+				C7EFBB3622379D6E0070C113 /* LaunchScreen.storyboard */,
+				C7EFBB3922379D6E0070C113 /* Info.plist */,
+				C7EFBB3A22379D6E0070C113 /* main.m */,
+			);
+			path = SlantLabel;
+			sourceTree = "<group>";
+		};
+		C7EFBB4322379D6E0070C113 /* SlantLabelTests */ = {
+			isa = PBXGroup;
+			children = (
+				C7EFBB4422379D6E0070C113 /* SlantLabelTests.m */,
+				C7EFBB4622379D6E0070C113 /* Info.plist */,
+			);
+			path = SlantLabelTests;
+			sourceTree = "<group>";
+		};
+		C7EFBB4E22379D6E0070C113 /* SlantLabelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C7EFBB4F22379D6E0070C113 /* SlantLabelUITests.m */,
+				C7EFBB5122379D6E0070C113 /* Info.plist */,
+			);
+			path = SlantLabelUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7EFBB2722379D6D0070C113 /* SlantLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7EFBB5422379D6E0070C113 /* Build configuration list for PBXNativeTarget "SlantLabel" */;
+			buildPhases = (
+				C7EFBB2422379D6D0070C113 /* Sources */,
+				C7EFBB2522379D6D0070C113 /* Frameworks */,
+				C7EFBB2622379D6D0070C113 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlantLabel;
+			productName = SlantLabel;
+			productReference = C7EFBB2822379D6D0070C113 /* SlantLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C7EFBB3F22379D6E0070C113 /* SlantLabelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7EFBB5722379D6E0070C113 /* Build configuration list for PBXNativeTarget "SlantLabelTests" */;
+			buildPhases = (
+				C7EFBB3C22379D6E0070C113 /* Sources */,
+				C7EFBB3D22379D6E0070C113 /* Frameworks */,
+				C7EFBB3E22379D6E0070C113 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7EFBB4222379D6E0070C113 /* PBXTargetDependency */,
+			);
+			name = SlantLabelTests;
+			productName = SlantLabelTests;
+			productReference = C7EFBB4022379D6E0070C113 /* SlantLabelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C7EFBB4A22379D6E0070C113 /* SlantLabelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7EFBB5A22379D6E0070C113 /* Build configuration list for PBXNativeTarget "SlantLabelUITests" */;
+			buildPhases = (
+				C7EFBB4722379D6E0070C113 /* Sources */,
+				C7EFBB4822379D6E0070C113 /* Frameworks */,
+				C7EFBB4922379D6E0070C113 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7EFBB4D22379D6E0070C113 /* PBXTargetDependency */,
+			);
+			name = SlantLabelUITests;
+			productName = SlantLabelUITests;
+			productReference = C7EFBB4B22379D6E0070C113 /* SlantLabelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7EFBB2022379D6D0070C113 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "王泽龙";
+				TargetAttributes = {
+					C7EFBB2722379D6D0070C113 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					C7EFBB3F22379D6E0070C113 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C7EFBB2722379D6D0070C113;
+					};
+					C7EFBB4A22379D6E0070C113 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C7EFBB2722379D6D0070C113;
+					};
+				};
+			};
+			buildConfigurationList = C7EFBB2322379D6D0070C113 /* Build configuration list for PBXProject "SlantLabel" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7EFBB1F22379D6D0070C113;
+			productRefGroup = C7EFBB2922379D6D0070C113 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7EFBB2722379D6D0070C113 /* SlantLabel */,
+				C7EFBB3F22379D6E0070C113 /* SlantLabelTests */,
+				C7EFBB4A22379D6E0070C113 /* SlantLabelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7EFBB2622379D6D0070C113 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7EFBB3822379D6E0070C113 /* LaunchScreen.storyboard in Resources */,
+				C7EFBB3522379D6E0070C113 /* Assets.xcassets in Resources */,
+				C7EFBB3322379D6D0070C113 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7EFBB3E22379D6E0070C113 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7EFBB4922379D6E0070C113 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7EFBB2422379D6D0070C113 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7EFBB3022379D6D0070C113 /* ViewController.m in Sources */,
+				C7EFBB3B22379D6E0070C113 /* main.m in Sources */,
+				C7EFBB2D22379D6D0070C113 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7EFBB3C22379D6E0070C113 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7EFBB4522379D6E0070C113 /* SlantLabelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7EFBB4722379D6E0070C113 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7EFBB5022379D6E0070C113 /* SlantLabelUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7EFBB4222379D6E0070C113 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7EFBB2722379D6D0070C113 /* SlantLabel */;
+			targetProxy = C7EFBB4122379D6E0070C113 /* PBXContainerItemProxy */;
+		};
+		C7EFBB4D22379D6E0070C113 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7EFBB2722379D6D0070C113 /* SlantLabel */;
+			targetProxy = C7EFBB4C22379D6E0070C113 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C7EFBB3122379D6D0070C113 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7EFBB3222379D6D0070C113 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C7EFBB3622379D6E0070C113 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7EFBB3722379D6E0070C113 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7EFBB5222379D6E0070C113 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C7EFBB5322379D6E0070C113 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7EFBB5522379D6E0070C113 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SlantLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xiaoyaoknight.SlantLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7EFBB5622379D6E0070C113 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SlantLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xiaoyaoknight.SlantLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C7EFBB5822379D6E0070C113 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SlantLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xiaoyaoknight.SlantLabelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlantLabel.app/SlantLabel";
+			};
+			name = Debug;
+		};
+		C7EFBB5922379D6E0070C113 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SlantLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xiaoyaoknight.SlantLabelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlantLabel.app/SlantLabel";
+			};
+			name = Release;
+		};
+		C7EFBB5B22379D6E0070C113 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SlantLabelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xiaoyaoknight.SlantLabelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SlantLabel;
+			};
+			name = Debug;
+		};
+		C7EFBB5C22379D6E0070C113 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SlantLabelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xiaoyaoknight.SlantLabelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SlantLabel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7EFBB2322379D6D0070C113 /* Build configuration list for PBXProject "SlantLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7EFBB5222379D6E0070C113 /* Debug */,
+				C7EFBB5322379D6E0070C113 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7EFBB5422379D6E0070C113 /* Build configuration list for PBXNativeTarget "SlantLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7EFBB5522379D6E0070C113 /* Debug */,
+				C7EFBB5622379D6E0070C113 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7EFBB5722379D6E0070C113 /* Build configuration list for PBXNativeTarget "SlantLabelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7EFBB5822379D6E0070C113 /* Debug */,
+				C7EFBB5922379D6E0070C113 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7EFBB5A22379D6E0070C113 /* Build configuration list for PBXNativeTarget "SlantLabelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7EFBB5B22379D6E0070C113 /* Debug */,
+				C7EFBB5C22379D6E0070C113 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7EFBB2022379D6D0070C113 /* Project object */;
+}
